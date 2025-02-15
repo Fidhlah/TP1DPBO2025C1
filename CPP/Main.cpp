@@ -12,22 +12,15 @@ using namespace std;
 int main() {
     list<Petshop> petshop;  // List untuk menyimpan data produk di petshop
 
-    // Data Dummy (bisa dikomentari jika ingin inputan kosong)
-    petshop.push_back(Petshop("001", "Royal Canin Kitten", "Makanan Kucing", 250000));
-    petshop.push_back(Petshop("002", "Pedigree Beef & Vegetable", "Makanan Anjing", 50000));
-    petshop.push_back(Petshop("003", "Frontline Plus Cat", "Obat Kucing", 131000));
-    petshop.push_back(Petshop("004", "Detick Obat Kutu Anjing", "Obat Anjing", 55000));
-    petshop.push_back(Petshop("005", "Petmate Litter Scoop", "Aksesoris Hewan", 15000));
-    petshop.push_back(Petshop("006", "Flea and Tick Collar", "Aksesoris Hewan", 300000));
-    petshop.push_back(Petshop("007", "Mainan Bola Kucing", "Perlengkapan Hewan", 180000));
-    petshop.push_back(Petshop("008", "Whiskas Adult Tuna", "Makanan Kucing", 50000));
-    petshop.push_back(Petshop("009", "Advantage II", "Obat Anjing", 200000));
-    petshop.push_back(Petshop("010", "Cats Litter Pellets", "Perlengkapan Hewan", 70000));
-    petshop.push_back(Petshop("011", "Takari Fish Food", "Makanan Ikan", 4500));
-    petshop.push_back(Petshop("012", "Hikari Oranda Gold", "Makanan Ikan", 59000));
-    petshop.push_back(Petshop("013", "TetraBits Complete", "Makanan Ikan", 103800));
-    petshop.push_back(Petshop("014", "Tower Kucing", "Mainan Hewan", 379000));
-    petshop.push_back(Petshop("015", "Pawise Cat Scratcher", "Mainan Hewan", 18900));
+    // Data Dummy (bisa uncomment jika tidak ingin input manual)
+    // petshop.push_back(Petshop("001", "Royal Canin Kitten", "Makanan Kucing", 250000));
+    // petshop.push_back(Petshop("002", "Pedigree Beef & Vegetable", "Makanan Anjing", 50000));
+    // petshop.push_back(Petshop("003", "Detick Obat Kutu Anjing", "Obat Anjing", 55000));
+    // petshop.push_back(Petshop("004", "Petmate Litter Scoop", "Aksesoris Hewan", 15000));
+    // petshop.push_back(Petshop("005", "Hikari Oranda Gold", "Makanan Ikan", 59000));
+    // petshop.push_back(Petshop("006", "TetraBits Complete", "Makanan Ikan", 103800));
+    // petshop.push_back(Petshop("007", "Tower Kucing", "Mainan Hewan", 379000));
+    // petshop.push_back(Petshop("008", "Pawise Cat Scratcher", "Mainan Hewan", 18900));
 
     // Sebagai tempat menyimpan input pengguna
     string ID, nama, kategori;
