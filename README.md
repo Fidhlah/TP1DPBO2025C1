@@ -13,5 +13,5 @@ Saya Muhammad Hafidh Fadhilah dengan NIM 2305672 mengerjakan Tugas Praktikum 1 d
 ### Menghapus data (Fitur menampilkan data disertakan)
 ![image](https://github.com/user-attachments/assets/1fc2d20b-4aa6-41e0-9587-7ba18d585f1c)
 
-### Mencari data
+### Mencari data berdasarkan nama
 ![image](https://github.com/user-attachments/assets/d04355b9-16ae-4bfc-a135-887af8a5dd2f)
